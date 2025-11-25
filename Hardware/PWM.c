@@ -37,6 +37,7 @@ void PWM_SetCompare3(uint16_t Compare)
 {
 	TIM_SetCompare3(TIM2, Compare);
 }
+
 void PWM_SetCompare4(uint16_t Compare)
 {
 	TIM_SetCompare4(TIM2, Compare);
